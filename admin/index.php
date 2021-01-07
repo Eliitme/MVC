@@ -10,7 +10,7 @@ if (isset($_GET['c'])) {
     $action = 'index';
   }
 } else {
-  $controller = 'pages';
-  $action = 'home';
+  $controller = 'dashboard';
+  $action = 'index';
 }
 require_once('routes.php');
